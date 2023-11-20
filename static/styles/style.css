@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.woff") format("woff");
+  }
+
+:root {
+    --text1-color: #DEDEDE;
+    --text2-color: #2C2523;
+    --text3-color: #252424;
+    --text4-color: #6F6E6E;
+    --text-warm-color: #EC6666;
+    --white-color: #FFFFFF;
+    --UX-1-color: #FFE4D4;
+    --UX-2-color: #E8B89D;
+    --UX-3-color: #2F4858;
+    --UX-4-color: #FAF8F2;
+    --UX-5-color: #816E89;
+    --green-color: #B9FFCE;
+    --yellow-color: #F9F871;
+    --green-2-color: #3D8653;
+}
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: var(--UX-4-color);
+    max-width: 1440px;
+}
+nav {
+    background-color: var(--white-color);
+    
+  }
+footer {
+  background-color: var(--white-color);
+}
+
+
